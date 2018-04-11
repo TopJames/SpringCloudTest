@@ -1,0 +1,12 @@
+<confs>
+<record>
+<id>1</id><servicename>install</servicename><oriobj>new java.lang.Integer(21)</oriobj><oripath><![CDATA[/]]></oripath><destobj>com.ayu.common.test.XmlFileActionBean</destobj><destpath><![CDATA[/testNum]]></destpath><wherecond><![CDATA[(a./a=java.lang.String|2 || (a./a=java.lang.String|3 || a./a=java.lang.String|2)) && (a./a=java.lang.String|2 || a./a=java.lang.String|3)]]></wherecond>
+</record>
+<record>
+<id>2</id><servicename>mytest</servicename><oriobj>Objects.exec("+",destval,":aaaa")</oriobj><oripath><![CDATA[/]]></oripath><destobj></destobj><destpath></destpath><wherecond><![CDATA[Objects.match("=",com.ayu.common.utils.XmlUtil.selectByPath(oriObj,new com.ayu.common.dynamic.Path("/a/b/c")).get(0).getTextTrim(),"haha2")]]></wherecond>
+</record>
+<record>
+<id>3</id><servicename>mytest2</servicename><oriobj>Objects.exec("+",destval,":aaaa")</oriobj><oripath><![CDATA[/]]></oripath><destobj></destobj><destpath></destpath><wherecond><![CDATA[(Objects.match("=",com.ayu.common.utils.XmlUtil.selectByPath(oriObj,new com.ayu.common.dynamic.Path("/PAGE/PSGINFOS/PSGINFO/USERID")).get(0).getTextTrim(),"myuserId1")) && (Objects.match("=",com.ayu.common.utils.XmlUtil.selectByPath(oriObj,new com.ayu.common.dynamic.Path("/PAGE/PSGINFOS/PSGINFO/USERID")).get(0).getTextTrim(),"myuserId1"))]]></wherecond>
+</record>
+
+</confs>

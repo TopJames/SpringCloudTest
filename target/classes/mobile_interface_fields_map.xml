@@ -1,0 +1,10 @@
+<confs>
+<record><id>1</id><servicename>install</servicename><oripath><![CDATA[/page/psginfos/psginfo/USERID]]></oripath><destpath><![CDATA[/page/psginfos/new:PsgInfo/new:userId]]></destpath><dynamiccode></dynamiccode></record>
+<record><id>2</id><servicename>install</servicename><oripath><![CDATA[/page/psginfos/psginfo/PSGNAME]]></oripath><destpath><![CDATA[/page/psginfos/new&&single:PsgInfo/new&&single:psgName]]></destpath><dynamiccode></dynamiccode></record>
+<record><id>3</id><servicename>install</servicename><oripath><![CDATA[/page/psginfos/psginfo/TYPE]]></oripath><destpath><![CDATA[/page/psginfos/new&&single:PsgInfo/new&&single:type]]></destpath><dynamiccode></dynamiccode></record>
+<record><id>3</id><servicename>install</servicename><oripath><![CDATA[/page/psginfos/psginfo/IDTYPE]]></oripath><destpath><![CDATA[/page/psginfos/new&&single:PsgInfo/new&&single:idType]]></destpath><dynamiccode></dynamiccode></record>
+<record><id>3</id><servicename>install</servicename><oripath><![CDATA["33"]]></oripath><destpath><![CDATA[/page/psginfos/psginfo/new:idType]]></destpath><dynamiccode>mytest2</dynamiccode></record>
+<record></record>
+<record></record>
+<record></record>
+</confs>
