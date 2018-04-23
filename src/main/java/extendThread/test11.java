@@ -28,6 +28,14 @@ public class test11 {
 //        System.out.println("result："+result+",result2:"+result2);
 
         test11 t11=new test11();
+
+        Unsafe un=t11.getUnsafe();
+        System.out.println(un.objectFieldOffset(test11.class.getDeclaredField("value")));
+        System.out.println(un.objectFieldOffset(t11.getClass().getDeclaredField("value")));
+
+
+
+
         int val=0;
         CountDownLatch cdl=new CountDownLatch(1);
 
@@ -135,6 +143,11 @@ public class test11 {
         }
         return nextVal;
     }
+
+    public Unsafe getUnsafe(){
+        return uf;
+    }
+
 
 
 }
